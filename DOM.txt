@@ -1,0 +1,21 @@
+NOTES:
+DOM --> document object model
+
+* It is the structured representation(tree structure) of the html documents.
+
+* Allows javascript to access html elements and css styles to manipulate them.
+
+* DOM is a connection point between the html documents and javascript code
+
+* DOM is automatically created by browser as soon as html page loads and it   is   stored in a treee structure, where each html element is one object..
+
+* every element in the DOM tree is an object 
+
+* The top(root) of the DOM tree has a object called document 
+
+* The document object acts as entry point to the DOM tree
+
+* Using the document object we can interact every other object
+  > ex: document.querySelector('selector');
+
+* first object in DOM tree structure is the html(after document object) object (<html></html>) 
